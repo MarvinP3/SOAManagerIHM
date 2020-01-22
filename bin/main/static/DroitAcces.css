@@ -1,0 +1,16 @@
+body{
+	background: #FE7400;
+}
+h1{
+	font-style: oblique;
+	font-size:60px;
+	text-align:center;
+}
+.Modifier{
+	margin-left:300px;
+	margin-top: 2px;
+}
+.Afficher{
+	float:right;
+	padding-bottom:900px;
+}
