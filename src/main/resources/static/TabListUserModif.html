@@ -1,0 +1,39 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Liste des utilisateurs</title>
+	       <meta charset="utf-8">
+        <!-- importer le fichier de style -->
+        <link rel="stylesheet" href="TabListUserModif.css" media="screen" type="text/css" />
+</head>
+
+<body>
+	<table align="center">
+		<caption>Liste des utilisateurs</caption>
+		<tr>
+			<th scope="col">Nom</th>
+			<th scope="col">Prenom</th>
+			<th scope="col">Nom d'utilisateur</th>
+			<th scope="col">Mot de Passe</th>
+			<th scope="col">Fonction</th>
+			<th scope="col">Email</th>
+		</tr>
+		
+		<tr bgcolor="white">
+			<td><input type="text" placeholder="SOREL"> </td> 
+			<td><input type="text"placeholder="STEPHANE"></td>
+			<td><input type="text"placeholder=" ssorel"></td>
+			<td><input type="text"placeholder="123"></td>
+			<td><input type="text"placeholder="Architecte"></td>
+			<td><input type="text"placeholder="toto@orange.com"></td>
+		</tr>
+	</table>
+	<a href="TabListUser.html" ><input class="save"type="button" value="Sauvegarder"></a>
+	
+	<input class="cancel"type="button" onclick='window.location.reload(false)' value="Annuler">
+	
+	${listeUtilisateur} ${toto}
+	
+</body>
+
+</html>

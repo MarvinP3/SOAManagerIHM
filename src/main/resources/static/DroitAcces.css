@@ -6,9 +6,18 @@ h1{
 	font-size:60px;
 	text-align:center;
 }
+.Ajouter{
+	float:left;
+	margin-right:150px;
+}
 .Modifier{
-	margin-left:300px;
-	margin-top: 2px;
+	margin-right:130px;
+	margin-top: 16px;
+	float:left;
+}
+.Supprimer{
+	float:left;
+	margin-top:16px;
 }
 .Afficher{
 	float:right;
